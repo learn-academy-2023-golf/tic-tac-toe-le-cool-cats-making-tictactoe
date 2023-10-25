@@ -68,12 +68,13 @@ There is an interesting approach to the [Tic Tac Toe win condition in React](htt
     
 - As a user, my partner can click on a square after me and see their mark.
     branch: partner-click
+    completed✅
 
 - As a user, I can't click on a square that has already been marked.
-
+    completed✅(with story 3)
 
 - As a user, when either my partner or I win the game (three squares in a row: horizontally, vertically, or diagonally), I can see a notice telling me which player won.
-
+    branch: winner
 
 - As a user, I can't play the game after the game has been won.
 
@@ -82,14 +83,17 @@ There is an interesting approach to the [Tic Tac Toe win condition in React](htt
 
 
 - As a user, I can click on a restart button that will clear the game board.
-
+    branch: restart
 
 
 
 ### 🏔 Stretch Goals
 
 - As a user, I can see pleasant stylings on the application.
+    completed✅
+
 - As a user, I can see a notification that informs me whether it is currently my partner or my turn.
+
 - As a user, I can choose my marker from a predetermined list (X, O, a color, an emoji, etc...).
 
 ### 👩‍💻 Developer Stretch Goals
@@ -105,6 +109,27 @@ There is an interesting approach to the [Tic Tac Toe win condition in React](htt
 Each team will give a brief (three minute) presentation of their application. Presenting your project will allow you to practice communication and coding vocabulary. Presentations are not a judgement of your work or ability as each team will have different weaknesses and strengths. Presentations allow other members of the cohort to appreciate a different approach to solving a complex problem.
 
 - Full team: show off your application's user interface (UI)
+
+
 - First team member: What was the biggest learning moment for your team?
+    well, we were both stumped for a while on why nothing we were trying for our logic was working. only after we combed through everything, we found out that in our square.js container, the "O" in exAndOh was lowercase. as soon as we fixed that, our site was unbroken and finally worked how we wanted it to.
+
 - Second team member: What was the most challenging thing about this project?
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 - Third team member (if applicable): How did you manage the workflow in a group of three?
