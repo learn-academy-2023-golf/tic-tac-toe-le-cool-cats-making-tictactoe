@@ -63,10 +63,10 @@ There is an interesting approach to the [Tic Tac Toe win condition in React](htt
     COMPLETED✅
 
 - As a user, I can click on a square to mark it.
-
-
+    branch: box-functionality
+    COMPLETED✅
 - As a user, my partner can click on a square after me and see their mark.
-
+    branch: partner-click
 
 - As a user, I can't click on a square that has already been marked.
 
