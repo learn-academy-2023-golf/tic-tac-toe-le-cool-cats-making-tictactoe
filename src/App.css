@@ -12,3 +12,23 @@
   width: 620px;
   margin:auto
 }
+
+h1 {
+  text-align: center;
+  font-size: 75px;
+  color: orangered;
+}
+
+.restartButton {
+  margin: auto;
+  height: 50px;
+  width: 150px;
+  font-size: 30px;
+  color: orangered;
+  background-color: black;
+}
+
+body {
+  background-image: url("https://www.telegram.com/gcdn/presto/2020/10/28/NTEG/2a08320b-964d-4047-88e3-020ade9785cd-halloween.jpg?crop=2999,1687,x0,y17&width=2999&height=1687&format=pjpg&auto=webp");
+  background-size: cover;
+}
